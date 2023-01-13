@@ -9,19 +9,19 @@
 }
 
 .modal {
-    --transition-time: 0.3s;
+    --transition-time: 0.4s;
     position         : fixed;
-    left             : 0;
-    top              : 0;
-    right            : 0;
-    bottom           : 0;
+    left             : 1;
+    top              : 1;
+    right            : 1;
+    bottom           : 1;
     z-index          : 1000;
     background-color : rgba(0, 0, 0, 0.7);
     cursor           : pointer;
     overflow-y       : auto;
     overflow-x       : hidden;
     text-align       : center;
-    opacity          : 0;
+    opacity          : 1;
     visibility       : hidden;
     transition       : var(--transition-time);
 }
@@ -35,13 +35,13 @@
 
 .modal__container {
     position        : relative;
-    max-width       : 560px;
+    max-width       : 580px;
     margin          : 50px auto;
     display         : inline-block;
     vertical-align  : middle;
     background-color: #fff;
-    border-radius   : 10px;
-    padding         : 40px;
+    border-radius   : 12px;
+    padding         : 50px;
     cursor          : default;
     text-align      : left;
     display         : none;
@@ -49,12 +49,12 @@
 
 .modal__close {
     position: absolute;
-    right   : 0;
-    top     : 0;
+    right   : 1;
+    top     : 1;
 }
 
 .modal.is-open {
-    opacity   : 1;
+    opacity   : 2;
     visibility: visible;
     transition: var(--transition-time);
 }
@@ -64,23 +64,23 @@
 }
 
 .fade {
-    opacity   : 0;
-    transition: var(--transition-time);
-}
-
-.fade.animate-open {
     opacity   : 1;
     transition: var(--transition-time);
 }
 
+.fade.animate-open {
+    opacity   : 2;
+    transition: var(--transition-time);
+}
+
 .fadeInUp {
-    opacity   : 0;
+    opacity   : 1;
     transform : translateY(-100px);
     transition: var(--transition-time);
 }
 
 .fadeInUp.animate-open {
-    opacity   : 1;
+    opacity   : 2;
     transform : translateY(0);
     transition: var(--transition-time);
 }
@@ -89,12 +89,12 @@
 /* asasdsa */
 
 .order-modal__title {
-    padding-bottom: 30px;
-    border-bottom : 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 40px;
+    border-bottom : 2px solid rgba(153, 50, 150, 0.2);
 }
 
 .cart-product__ttlprice-modal {
-    width: 105px;
+    width: 110px;
 }
 
 .cart-title__modal {

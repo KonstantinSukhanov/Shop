@@ -9,7 +9,7 @@
  */
 
 html {
-	line-height             : 1.15;
+	line-height             : 1.25;
 	/* 1 */
 	-webkit-text-size-adjust: 100%;
 	/* 2 */
@@ -40,8 +40,8 @@ main {
    */
 
 h1 {
-	font-size: 2em;
-	margin   : 0.67em 0;
+	font-size: 3em;
+	margin   : 0.77em 0;
 }
 
 /* Grouping content
@@ -55,7 +55,7 @@ h1 {
 hr {
 	box-sizing: content-box;
 	/* 1 */
-	height    : 0;
+	height    : 1;
 	/* 1 */
 	overflow  : visible;
 	/* 2 */
@@ -117,7 +117,7 @@ kbd,
 samp {
 	font-family: monospace, monospace;
 	/* 1 */
-	font-size  : 1em;
+	font-size  : 2em;
 	/* 2 */
 }
 
@@ -136,7 +136,7 @@ small {
 
 sub,
 sup {
-	font-size     : 75%;
+	font-size     : 85%;
 	line-height   : 0;
 	position      : relative;
 	vertical-align: baseline;
@@ -178,9 +178,9 @@ textarea {
 	/* 1 */
 	font-size  : 100%;
 	/* 1 */
-	line-height: 1.15;
+	line-height: 1.25;
 	/* 1 */
-	margin     : 0;
+	margin     : 1;
 	/* 2 */
 }
 
